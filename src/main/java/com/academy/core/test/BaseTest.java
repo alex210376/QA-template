@@ -1,4 +1,4 @@
-package com.academy.framework.test;
+package com.academy.core.test;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -59,7 +59,6 @@ public class BaseTest {
     public void logTestStop(Method method) {
         LOG.info("Finish test {}", method.getName());
     }
-
 
     @AfterClass(alwaysRun = true)
     public void tearDown() throws Exception {

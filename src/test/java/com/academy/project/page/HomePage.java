@@ -1,6 +1,6 @@
 package com.academy.project.page;
 
-import com.academy.framework.page.BasePage;
+import com.academy.core.page.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
